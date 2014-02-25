@@ -12,13 +12,44 @@
 		A604F94618BC188300074463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A604F94518BC188300074463 /* UIKit.framework */; };
 		A604F94C18BC188300074463 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A604F94A18BC188300074463 /* InfoPlist.strings */; };
 		A604F94E18BC188300074463 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A604F94D18BC188300074463 /* main.m */; };
-		A604F95218BC188300074463 /* HPCLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A604F95118BC188300074463 /* HPCLAppDelegate.m */; };
+		A604F95218BC188300074463 /* HPCLAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A604F95118BC188300074463 /* HPCLAppDelegate.mm */; };
 		A604F95418BC188300074463 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A604F95318BC188300074463 /* Images.xcassets */; };
 		A604F95B18BC188300074463 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A604F95A18BC188300074463 /* XCTest.framework */; };
 		A604F95C18BC188300074463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A604F94118BC188300074463 /* Foundation.framework */; };
 		A604F95D18BC188300074463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A604F94518BC188300074463 /* UIKit.framework */; };
 		A604F96518BC188300074463 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A604F96318BC188300074463 /* InfoPlist.strings */; };
 		A604F96718BC188300074463 /* HelloPCLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A604F96618BC188300074463 /* HelloPCLTests.m */; };
+		A604F97218BC195A00074463 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A604F97018BC195A00074463 /* OpenGLES.framework */; };
+		A604F97318BC195A00074463 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A604F97118BC195A00074463 /* QuartzCore.framework */; };
+		A604F97A18BC1A6000074463 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A604F97518BC1A6000074463 /* EAGLView.mm */; };
+		A604F97B18BC1A6000074463 /* ES2Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = A604F97718BC1A6000074463 /* ES2Renderer.mm */; };
+		A604F97C18BC1A6000074463 /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A604F97918BC1A6000074463 /* GLViewController.m */; };
+		A604F98618BC1A6900074463 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A604F97E18BC1A6900074463 /* Default-Landscape~ipad.png */; };
+		A604F98718BC1A6900074463 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A604F97F18BC1A6900074463 /* Default-Portrait~ipad.png */; };
+		A604F98818BC1A6900074463 /* fullscreen_32.png in Resources */ = {isa = PBXBuildFile; fileRef = A604F98018BC1A6900074463 /* fullscreen_32.png */; };
+		A604F98918BC1A6900074463 /* kiwi_icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = A604F98118BC1A6900074463 /* kiwi_icon_114.png */; };
+		A604F98A18BC1A6900074463 /* kiwi_icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = A604F98218BC1A6900074463 /* kiwi_icon_57.png */; };
+		A604F98B18BC1A6900074463 /* kiwi_icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = A604F98318BC1A6900074463 /* kiwi_icon_72.png */; };
+		A604F98C18BC1A6900074463 /* Kiwi_K.png in Resources */ = {isa = PBXBuildFile; fileRef = A604F98418BC1A6900074463 /* Kiwi_K.png */; };
+		A604F98D18BC1A6900074463 /* opendata_32.png in Resources */ = {isa = PBXBuildFile; fileRef = A604F98518BC1A6900074463 /* opendata_32.png */; };
+		A604F99118BC1A8300074463 /* InfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A604F98F18BC1A8300074463 /* InfoView.m */; };
+		A604F99218BC1A8300074463 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A604F99018BC1A8300074463 /* InfoView.xib */; };
+		A604F99518BC1ACC00074463 /* LoadDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = A604F99418BC1ACC00074463 /* LoadDataController.m */; };
+		A604F9A318BC1AE300074463 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A604F99618BC1AE300074463 /* MainWindow.xib */; };
+		A604F9A418BC1AE300074463 /* TitleBarViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A604F99818BC1AE300074463 /* TitleBarViewContainer.m */; };
+		A604F9A518BC1AE300074463 /* TitleBarViewContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = A604F99918BC1AE300074463 /* TitleBarViewContainer.xib */; };
+		A604F9A618BC1AE300074463 /* vesKiwiPCLDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A604F99B18BC1AE300074463 /* vesKiwiPCLDemo.cpp */; };
+		A604F9A718BC1AE300074463 /* vtkPCLConversions.cxx in Sources */ = {isa = PBXBuildFile; fileRef = A604F99D18BC1AE300074463 /* vtkPCLConversions.cxx */; };
+		A604F9A818BC1AE300074463 /* vtkPCLSACSegmentationPlane.cxx in Sources */ = {isa = PBXBuildFile; fileRef = A604F99F18BC1AE300074463 /* vtkPCLSACSegmentationPlane.cxx */; };
+		A604F9A918BC1AE300074463 /* vtkPCLVoxelGrid.cxx in Sources */ = {isa = PBXBuildFile; fileRef = A604F9A118BC1AE300074463 /* vtkPCLVoxelGrid.cxx */; };
+		A604F9AC18BC1B0700074463 /* pointcloud.pcd in Resources */ = {isa = PBXBuildFile; fileRef = A604F9AB18BC1B0700074463 /* pointcloud.pcd */; };
+		A604F9BB18BC752E00074463 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A604F9BA18BC752E00074463 /* libbz2.dylib */; };
+		A604F9BD18BC7C8D00074463 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A604F9BC18BC7C8D00074463 /* libstdc++.dylib */; };
+		A604F9BF18BC7CC500074463 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A604F9BE18BC7CC400074463 /* libz.dylib */; };
+		A604F9C118BC7CCF00074463 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A604F9C018BC7CCF00074463 /* libc++.dylib */; };
+		A653C88818BD5E96008ED9A8 /* kiwi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A653C88518BD5E96008ED9A8 /* kiwi.framework */; };
+		A653C88918BD5E96008ED9A8 /* vtk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A653C88618BD5E96008ED9A8 /* vtk.framework */; };
+		A653C88A18BD5E96008ED9A8 /* pcl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A653C88718BD5E96008ED9A8 /* pcl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +72,55 @@
 		A604F94D18BC188300074463 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A604F94F18BC188300074463 /* HelloPCL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloPCL-Prefix.pch"; sourceTree = "<group>"; };
 		A604F95018BC188300074463 /* HPCLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPCLAppDelegate.h; sourceTree = "<group>"; };
-		A604F95118BC188300074463 /* HPCLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPCLAppDelegate.m; sourceTree = "<group>"; };
+		A604F95118BC188300074463 /* HPCLAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HPCLAppDelegate.mm; sourceTree = "<group>"; };
 		A604F95318BC188300074463 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A604F95918BC188300074463 /* HelloPCLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPCLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A604F95A18BC188300074463 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A604F96218BC188300074463 /* HelloPCLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloPCLTests-Info.plist"; sourceTree = "<group>"; };
 		A604F96418BC188300074463 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A604F96618BC188300074463 /* HelloPCLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPCLTests.m; sourceTree = "<group>"; };
+		A604F97018BC195A00074463 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A604F97118BC195A00074463 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A604F97418BC1A6000074463 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		A604F97518BC1A6000074463 /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
+		A604F97618BC1A6000074463 /* ES2Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ES2Renderer.h; sourceTree = "<group>"; };
+		A604F97718BC1A6000074463 /* ES2Renderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ES2Renderer.mm; sourceTree = "<group>"; };
+		A604F97818BC1A6000074463 /* GLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLViewController.h; sourceTree = "<group>"; };
+		A604F97918BC1A6000074463 /* GLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLViewController.m; sourceTree = "<group>"; };
+		A604F97E18BC1A6900074463 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		A604F97F18BC1A6900074463 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		A604F98018BC1A6900074463 /* fullscreen_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullscreen_32.png; sourceTree = "<group>"; };
+		A604F98118BC1A6900074463 /* kiwi_icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiwi_icon_114.png; sourceTree = "<group>"; };
+		A604F98218BC1A6900074463 /* kiwi_icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiwi_icon_57.png; sourceTree = "<group>"; };
+		A604F98318BC1A6900074463 /* kiwi_icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiwi_icon_72.png; sourceTree = "<group>"; };
+		A604F98418BC1A6900074463 /* Kiwi_K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kiwi_K.png; sourceTree = "<group>"; };
+		A604F98518BC1A6900074463 /* opendata_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opendata_32.png; sourceTree = "<group>"; };
+		A604F98E18BC1A8300074463 /* InfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoView.h; sourceTree = "<group>"; };
+		A604F98F18BC1A8300074463 /* InfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoView.m; sourceTree = "<group>"; };
+		A604F99018BC1A8300074463 /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		A604F99318BC1ACC00074463 /* LoadDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadDataController.h; sourceTree = "<group>"; };
+		A604F99418BC1ACC00074463 /* LoadDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadDataController.m; sourceTree = "<group>"; };
+		A604F99618BC1AE300074463 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		A604F99718BC1AE300074463 /* TitleBarViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleBarViewContainer.h; sourceTree = "<group>"; };
+		A604F99818BC1AE300074463 /* TitleBarViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleBarViewContainer.m; sourceTree = "<group>"; };
+		A604F99918BC1AE300074463 /* TitleBarViewContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleBarViewContainer.xib; sourceTree = "<group>"; };
+		A604F99A18BC1AE300074463 /* vesKiwiPCLApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vesKiwiPCLApp.h; sourceTree = "<group>"; };
+		A604F99B18BC1AE300074463 /* vesKiwiPCLDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vesKiwiPCLDemo.cpp; sourceTree = "<group>"; };
+		A604F99C18BC1AE300074463 /* vesKiwiPCLDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vesKiwiPCLDemo.h; sourceTree = "<group>"; };
+		A604F99D18BC1AE300074463 /* vtkPCLConversions.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vtkPCLConversions.cxx; sourceTree = "<group>"; };
+		A604F99E18BC1AE300074463 /* vtkPCLConversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vtkPCLConversions.h; sourceTree = "<group>"; };
+		A604F99F18BC1AE300074463 /* vtkPCLSACSegmentationPlane.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vtkPCLSACSegmentationPlane.cxx; sourceTree = "<group>"; };
+		A604F9A018BC1AE300074463 /* vtkPCLSACSegmentationPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vtkPCLSACSegmentationPlane.h; sourceTree = "<group>"; };
+		A604F9A118BC1AE300074463 /* vtkPCLVoxelGrid.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vtkPCLVoxelGrid.cxx; sourceTree = "<group>"; };
+		A604F9A218BC1AE300074463 /* vtkPCLVoxelGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vtkPCLVoxelGrid.h; sourceTree = "<group>"; };
+		A604F9AB18BC1B0700074463 /* pointcloud.pcd */ = {isa = PBXFileReference; lastKnownFileType = file; path = pointcloud.pcd; sourceTree = "<group>"; };
+		A604F9BA18BC752E00074463 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		A604F9BC18BC7C8D00074463 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		A604F9BE18BC7CC400074463 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A604F9C018BC7CCF00074463 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		A653C88518BD5E96008ED9A8 /* kiwi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = kiwi.framework; path = frameworks/kiwi.framework; sourceTree = "<group>"; };
+		A653C88618BD5E96008ED9A8 /* vtk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vtk.framework; path = frameworks/vtk.framework; sourceTree = "<group>"; };
+		A653C88718BD5E96008ED9A8 /* pcl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pcl.framework; path = frameworks/pcl.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +128,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A653C88818BD5E96008ED9A8 /* kiwi.framework in Frameworks */,
+				A653C88918BD5E96008ED9A8 /* vtk.framework in Frameworks */,
+				A653C88A18BD5E96008ED9A8 /* pcl.framework in Frameworks */,
+				A604F9C118BC7CCF00074463 /* libc++.dylib in Frameworks */,
+				A604F9BF18BC7CC500074463 /* libz.dylib in Frameworks */,
+				A604F9BD18BC7C8D00074463 /* libstdc++.dylib in Frameworks */,
+				A604F9BB18BC752E00074463 /* libbz2.dylib in Frameworks */,
+				A604F97218BC195A00074463 /* OpenGLES.framework in Frameworks */,
+				A604F97318BC195A00074463 /* QuartzCore.framework in Frameworks */,
 				A604F94418BC188300074463 /* CoreGraphics.framework in Frameworks */,
 				A604F94618BC188300074463 /* UIKit.framework in Frameworks */,
 				A604F94218BC188300074463 /* Foundation.framework in Frameworks */,
@@ -96,6 +178,15 @@
 		A604F94018BC188300074463 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A653C88518BD5E96008ED9A8 /* kiwi.framework */,
+				A653C88618BD5E96008ED9A8 /* vtk.framework */,
+				A653C88718BD5E96008ED9A8 /* pcl.framework */,
+				A604F9C018BC7CCF00074463 /* libc++.dylib */,
+				A604F9BE18BC7CC400074463 /* libz.dylib */,
+				A604F9BC18BC7C8D00074463 /* libstdc++.dylib */,
+				A604F9BA18BC752E00074463 /* libbz2.dylib */,
+				A604F97018BC195A00074463 /* OpenGLES.framework */,
+				A604F97118BC195A00074463 /* QuartzCore.framework */,
 				A604F94118BC188300074463 /* Foundation.framework */,
 				A604F94318BC188300074463 /* CoreGraphics.framework */,
 				A604F94518BC188300074463 /* UIKit.framework */,
@@ -108,8 +199,34 @@
 			isa = PBXGroup;
 			children = (
 				A604F95018BC188300074463 /* HPCLAppDelegate.h */,
-				A604F95118BC188300074463 /* HPCLAppDelegate.m */,
+				A604F95118BC188300074463 /* HPCLAppDelegate.mm */,
+				A604F97418BC1A6000074463 /* EAGLView.h */,
+				A604F97518BC1A6000074463 /* EAGLView.mm */,
+				A604F97618BC1A6000074463 /* ES2Renderer.h */,
+				A604F97718BC1A6000074463 /* ES2Renderer.mm */,
+				A604F97818BC1A6000074463 /* GLViewController.h */,
+				A604F97918BC1A6000074463 /* GLViewController.m */,
+				A604F98E18BC1A8300074463 /* InfoView.h */,
+				A604F98F18BC1A8300074463 /* InfoView.m */,
+				A604F99018BC1A8300074463 /* InfoView.xib */,
+				A604F99318BC1ACC00074463 /* LoadDataController.h */,
+				A604F99418BC1ACC00074463 /* LoadDataController.m */,
+				A604F99618BC1AE300074463 /* MainWindow.xib */,
+				A604F99718BC1AE300074463 /* TitleBarViewContainer.h */,
+				A604F99818BC1AE300074463 /* TitleBarViewContainer.m */,
+				A604F99918BC1AE300074463 /* TitleBarViewContainer.xib */,
+				A604F99A18BC1AE300074463 /* vesKiwiPCLApp.h */,
+				A604F99B18BC1AE300074463 /* vesKiwiPCLDemo.cpp */,
+				A604F99C18BC1AE300074463 /* vesKiwiPCLDemo.h */,
+				A604F99D18BC1AE300074463 /* vtkPCLConversions.cxx */,
+				A604F99E18BC1AE300074463 /* vtkPCLConversions.h */,
+				A604F99F18BC1AE300074463 /* vtkPCLSACSegmentationPlane.cxx */,
+				A604F9A018BC1AE300074463 /* vtkPCLSACSegmentationPlane.h */,
+				A604F9A118BC1AE300074463 /* vtkPCLVoxelGrid.cxx */,
+				A604F9A218BC1AE300074463 /* vtkPCLVoxelGrid.h */,
 				A604F95318BC188300074463 /* Images.xcassets */,
+				A604F97D18BC1A6900074463 /* images */,
+				A604F9AA18BC1B0700074463 /* data */,
 				A604F94818BC188300074463 /* Supporting Files */,
 			);
 			path = HelloPCL;
@@ -142,6 +259,29 @@
 				A604F96318BC188300074463 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A604F97D18BC1A6900074463 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A604F97E18BC1A6900074463 /* Default-Landscape~ipad.png */,
+				A604F97F18BC1A6900074463 /* Default-Portrait~ipad.png */,
+				A604F98018BC1A6900074463 /* fullscreen_32.png */,
+				A604F98118BC1A6900074463 /* kiwi_icon_114.png */,
+				A604F98218BC1A6900074463 /* kiwi_icon_57.png */,
+				A604F98318BC1A6900074463 /* kiwi_icon_72.png */,
+				A604F98418BC1A6900074463 /* Kiwi_K.png */,
+				A604F98518BC1A6900074463 /* opendata_32.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A604F9AA18BC1B0700074463 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				A604F9AB18BC1B0700074463 /* pointcloud.pcd */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +360,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A604F9AC18BC1B0700074463 /* pointcloud.pcd in Resources */,
+				A604F98818BC1A6900074463 /* fullscreen_32.png in Resources */,
+				A604F9A518BC1AE300074463 /* TitleBarViewContainer.xib in Resources */,
+				A604F98618BC1A6900074463 /* Default-Landscape~ipad.png in Resources */,
 				A604F94C18BC188300074463 /* InfoPlist.strings in Resources */,
+				A604F98918BC1A6900074463 /* kiwi_icon_114.png in Resources */,
 				A604F95418BC188300074463 /* Images.xcassets in Resources */,
+				A604F98718BC1A6900074463 /* Default-Portrait~ipad.png in Resources */,
+				A604F98A18BC1A6900074463 /* kiwi_icon_57.png in Resources */,
+				A604F98C18BC1A6900074463 /* Kiwi_K.png in Resources */,
+				A604F9A318BC1AE300074463 /* MainWindow.xib in Resources */,
+				A604F98D18BC1A6900074463 /* opendata_32.png in Resources */,
+				A604F98B18BC1A6900074463 /* kiwi_icon_72.png in Resources */,
+				A604F99218BC1A8300074463 /* InfoView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +392,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A604F97A18BC1A6000074463 /* EAGLView.mm in Sources */,
+				A604F9A718BC1AE300074463 /* vtkPCLConversions.cxx in Sources */,
 				A604F94E18BC188300074463 /* main.m in Sources */,
-				A604F95218BC188300074463 /* HPCLAppDelegate.m in Sources */,
+				A604F99518BC1ACC00074463 /* LoadDataController.m in Sources */,
+				A604F9A918BC1AE300074463 /* vtkPCLVoxelGrid.cxx in Sources */,
+				A604F9A818BC1AE300074463 /* vtkPCLSACSegmentationPlane.cxx in Sources */,
+				A604F99118BC1A8300074463 /* InfoView.m in Sources */,
+				A604F9A618BC1AE300074463 /* vesKiwiPCLDemo.cpp in Sources */,
+				A604F97C18BC1A6000074463 /* GLViewController.m in Sources */,
+				A604F95218BC188300074463 /* HPCLAppDelegate.mm in Sources */,
+				A604F97B18BC1A6000074463 /* ES2Renderer.mm in Sources */,
+				A604F9A418BC1AE300074463 /* TitleBarViewContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,12 +522,31 @@
 		A604F96B18BC188300074463 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = armv7;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					frameworks,
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloPCL/HelloPCL-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "HelloPCL/HelloPCL-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,12 +554,31 @@
 		A604F96C18BC188300074463 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = armv7;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					frameworks,
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloPCL/HelloPCL-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "HelloPCL/HelloPCL-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -444,6 +644,7 @@
 				A604F96C18BC188300074463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A604F96D18BC188300074463 /* Build configuration list for PBXNativeTarget "HelloPCLTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +653,7 @@
 				A604F96F18BC188300074463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
