@@ -1,0 +1,46 @@
+/*========================================================================
+  VES --- VTK OpenGL ES Rendering Toolkit
+
+      http://www.kitware.com/ves
+
+  Copyright 2011 Kitware, Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+ ========================================================================*/
+
+#ifndef VESRENDERDATA_H
+#define VESRENDERDATA_H
+
+// VES includes
+#include "vesGLTypes.h"
+#include "vesSetGet.h"
+
+struct vesRenderData
+{
+  vesTypeMacro(vesRenderData);
+
+  vesRenderData(int primitiveType, int pointSize, int lineWidth) :
+    m_pritimiveType(primitiveType),
+    m_pointSize(pointSize),
+    m_lineWidth(lineWidth)
+  {
+
+  }
+
+  int m_pritimiveType;
+
+  int m_pointSize;
+  int m_lineWidth;
+};
+
+#endif // VESRENDERDATA_H
